@@ -1,0 +1,1 @@
+var e=[`epn.edu.ec`,`gmail.com`],t=e.map(e=>`@${e}`).join(` o `),n=`Usa un correo institucional (@epn.edu.ec) o de Gmail (@gmail.com)`,r=e=>e.trim().toLowerCase(),i=t=>{let n=r(t);return e.some(e=>n.endsWith(`@${e}`))};export{r as i,n,i as r,t};
